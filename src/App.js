@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import Paragrafo from './Paragrafo';
 
 function App() {
   return (
     <div className="App">
-      <p>Avaliação Uniamérica</p>
+      <Paragrafo>teste</Paragrafo>
     </div>
   );
 }
