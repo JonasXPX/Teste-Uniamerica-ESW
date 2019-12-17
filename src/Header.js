@@ -13,7 +13,7 @@ export default class Header extends Component {
 
                 <div className="left">
                     <ul>
-                        <li>Sobre</li>
+                        <li><p>Sobre</p></li>
                     </ul>
                 </div>
             </div>
