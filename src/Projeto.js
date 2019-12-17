@@ -32,6 +32,7 @@ export class Projeto extends Component {
     }
     
     render() {
+        this.state.itens = [];
         projetoInfo.map((v, i) => {
             this.state.itens.push(
                 <div className="project">
