@@ -12,12 +12,13 @@ const projetoInfo = [
         name: 'O Objetivo',
         descricao: `
                 Melhorar a visibilidade de seus produtos, aplicar formas mais vísuais e interativas
-            de mostrar os produtos, com clareza e objetividade.`
+            de mostrar os produtos, com clareza e objetividade, em busca por um 
+            significativo almento das vendas, divulgação da marca e ampliação do poder.`
     },
     {
         name: 'A Solução',
         descricao: `
-                Desenvolver um aplicativo, com base nos problemas apontados,
+                Desenvolver um aplicativo, com base nos problemas apontados.....
             `
     }
 ];
