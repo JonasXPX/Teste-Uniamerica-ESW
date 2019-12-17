@@ -35,14 +35,14 @@ export class Projeto extends Component {
         this.state.itens = [];
         projetoInfo.map((v, i) => {
             this.state.itens.push(
-                <div className="project">
+                <div>
                     <h4>{v.name}</h4>
                     <p>{v.descricao}</p>
                 </div>
             )
         })
         return (
-            <div >
+            <div className="project">
                 {this.state.itens}
             </div>
         )
