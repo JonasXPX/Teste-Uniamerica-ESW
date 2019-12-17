@@ -1,13 +1,18 @@
 import React from 'react';
-import './App.scss';
-import Paragrafo from './Paragrafo';
+import Main from './Main.js';
 
 function App() {
   return (
-    <div className="App">
-      <Paragrafo>teste</Paragrafo>
-    </div>
+  <div> 
+      <Main/>
+  </div>
   );
 }
 
+
+export const styleX = {
+  body: {
+    backgroundColor: 'black'
+  }
+}
 export default App;
